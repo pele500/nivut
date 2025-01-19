@@ -100,6 +100,13 @@ const page4 = () =>{
     let cmut = window[`rova${chosenR}`];
     for( let i = 0; i < chosenV; i++){
         placment =  Math.floor(Math.random()*cmut.length)+1;
+        for(i = 0; i<first.length;i++){
+            if(placment === first[i]){
+                placment =  Math.floor(Math.random()*cmut.length)+1;
+                i = 0;
+            }
+        }
+        first[i]=placment;
         document.getElementById('RandP').innerHTML += `<li class = "numbs">הנקודה שלך היא: ${cmut[placment-1]}</li>`;
     }
 }
