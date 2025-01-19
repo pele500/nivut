@@ -1,0 +1,291 @@
+#start{
+    background-image: url(./asstes/pictures/BG.png);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline;
+}
+#mali{
+    position: absolute;
+    display: inline;
+    height: 8vh;
+    bottom: 2vh;
+    right: 50vw;
+}
+#pele{
+    position: absolute;
+    display: inline;
+    height: 8vh;
+    bottom: 2vh;
+    right: 32vw;
+}
+.pages{
+    position: absolute;
+    display: none;
+}
+#headlineP1{
+    position: absolute;
+    display: inline;
+    height: 21vh;
+    top: 6vh;
+    left: 23vw;
+}
+#map{
+    position: absolute;
+    display: inline;
+    height: 40vh;
+    top: 33vh;
+    left: 6vh;
+    z-index: 1;
+}
+#dashed1{
+    position: absolute;
+    height: 31vh;
+    top: 25vh;
+}
+#dashed2{
+    position: absolute;
+    height: 26vh;
+    top: 62vh;
+    left: 42vw;
+}
+#point{
+    position: absolute;
+    height: 7vh;
+    top: 80vh;
+    left: 34vw;
+}
+#headlineP2{
+    position: absolute;
+    height: 15vh;
+    top: 6vh;
+    left: 23vw;
+}
+#map2{
+    position: absolute;
+    height: 40vh;
+    top: 33vh;
+    left: 3vh;
+    z-index: 1;
+}
+#rova{
+    position: absolute;
+    height: 7vh;
+    top: 77vh;
+    left: 20vw;
+}
+#R2{
+    position: absolute;
+    height: 5vh;
+    width: 26vw;
+    top: 37vh;
+    right: 39vw;
+}
+#R1{
+    position: absolute;
+    height: 7vh;
+    width: 18vw;
+    top: 47vh;
+    right: 46vw;
+    border-radius: 50%;
+}
+#R3{
+    position: absolute;
+    height: 5vh;
+    width: 19vw;
+    top: 42vh;
+    right: 60vw;
+}
+#R34{
+    position: absolute;
+    height: 7vh;
+    width: 22vw;
+    top: 49vh;
+    right: 64vw;
+}
+#R4{
+    position: absolute;
+    height: 12vh;
+    width: 23vw;
+    top: 58vh;
+    right: 59vw;
+}
+#R5{
+    position: absolute;
+    height: 6vh;
+    width: 23vw;
+    top: 60vh;
+    right: 39vw;
+}
+#R6{
+    position: absolute;
+    height: 11vh;
+    width: 26vw;
+    top: 58vh;
+    right: 12vw;
+}
+#R7{
+    position: absolute;
+    height: 7vh;
+    width: 17vw;
+    top: 51vh;
+    right: 37vw;
+}
+#R8{
+    position: absolute;
+    height: 7vh;
+    width: 22vw;
+    top: 50vh;
+    right: 12vw;
+}
+#R9{
+    position: absolute;
+    height: 8vh;
+    width: 26vw;
+    top: 42vh;
+    right: 23vw;
+}
+#rov1{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov2{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov3{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov34{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov4{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov5{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov6{
+    position: absolute;
+    height: 26vh;
+    top: 19vh;
+    left: 28vw;
+}
+#rov7{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 31vw;
+}
+#rov8{
+    position: absolute;
+    height: 26vh;
+    top: 27vh;
+    left: 31vw;
+}
+#rov9{
+    position: absolute;
+    height: 26vh;
+    top: 24vh;
+    left: 14vw;
+}
+#numP{
+    position: absolute;
+    top: 50vh;
+    left: 13vw;
+    height: 10vh;
+    display: inline;
+}
+#next{
+    position: absolute;
+    top: 81vh;
+    left: 13vw;
+    height: 5vh;
+    display: inline;
+}
+#back{
+    position: absolute;
+    top: 9vh;
+    left: 71vw;
+    height: 6vh;
+    display: inline;
+    z-index: 1;
+}
+.slidecontainer{
+    width: 100%;
+}
+.slider {
+    width: 192%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    position: relative;
+    top: 68vh;
+    left: 19vw;
+    appearance: none;
+    cursor: pointer;
+}
+.slider:hover{
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+#numV{
+    position: absolute;
+    top: 71vh;
+    left: 45vw;
+    display: inline;
+    width: 39vw;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+#map4{
+    position: absolute;
+    height: 48vh;
+    width: 100vw;
+}
+#yourP{
+    position: absolute;
+    height: 7vh;
+    top: 35vh;
+    left: 8vw;
+}
+#RandP{
+    position: absolute;
+    height: 39vh;
+    width: 69vw;
+    top: 44vh;
+    left: 18vw;
+    direction: rtl;
+}
+.numbs{
+    position: relative;
+    width: 21vw;
+    font-size: large;
+}
