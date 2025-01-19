@@ -286,6 +286,7 @@
 }
 .numbs{
     position: relative;
-    width: 21vw;
+    width: 40vw;
+    height: 5vh;
     font-size: large;
 }
