@@ -108,6 +108,7 @@ const page4 = () =>{
             }
         }
         first[i]=placment;
+        alert('hi');
         document.getElementById('RandP').innerHTML += `<li class = "numbs">הנקודה שלך היא: ${cmut[placment-1]}</li>`;
     }
 }
