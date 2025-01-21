@@ -69,7 +69,7 @@
     height: 40vh;
     top: 33vh;
     left: 3vh;
-    z-index: 1;
+    z-index: 0;
 }
 #rova{
     position: absolute;
