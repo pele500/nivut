@@ -13,6 +13,7 @@ let chosenR;
 
 window.addEventListener("load", (event) => {
     document.getElementById('welcome').style.display = 'inline';
+    alert('hi1');
     let timer = setTimeout(() => {
         page2();
     }
