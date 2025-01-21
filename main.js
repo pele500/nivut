@@ -92,6 +92,7 @@ const rovaim = () =>{
 }
 
 const page4 = () =>{
+    alert('hi1');
     document.getElementById('page3').style.display = 'none';
     document.getElementById('page4').style.display = 'inline';
     let chosenV = document.getElementById('valueN').innerHTML;
@@ -99,16 +100,18 @@ const page4 = () =>{
     let placment = 0;
     let cmut = window[`rova${chosenR}`];
     let first = [];
+    alert('hi2');
     for( let i = 0; i < chosenV; i++){
         placment =  Math.floor(Math.random()*cmut.length)+1;
         for(i = 0; i<first.length;i++){
+            alert('hi3');
             if(placment === first[i]){
                 placment =  Math.floor(Math.random()*cmut.length)+1;
                 i = 0;
             }
         }
         first[i]=placment;
-        alert('hi');
+        alert('hi4');
         document.getElementById('RandP').innerHTML += `<li class = "numbs">הנקודה שלך היא: ${cmut[placment-1]}</li>`;
     }
 }
