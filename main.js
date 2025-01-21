@@ -98,6 +98,7 @@ const page4 = () =>{
     chosenV = Number(chosenV);
     let placment = 0;
     let cmut = window[`rova${chosenR}`];
+    let first = [];
     for( let i = 0; i < chosenV; i++){
         placment =  Math.floor(Math.random()*cmut.length)+1;
         for(i = 0; i<first.length;i++){
