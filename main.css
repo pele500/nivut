@@ -83,6 +83,7 @@
     width: 26vw;
     top: 37vh;
     right: 39vw;
+    z-index: 2;
 }
 #R1{
     position: absolute;
@@ -91,6 +92,7 @@
     top: 47vh;
     right: 46vw;
     border-radius: 50%;
+    z-index: 2;
 }
 #R3{
     position: absolute;
@@ -98,6 +100,7 @@
     width: 19vw;
     top: 42vh;
     right: 60vw;
+    z-index: 2;
 }
 #R34{
     position: absolute;
@@ -105,6 +108,7 @@
     width: 22vw;
     top: 49vh;
     right: 64vw;
+    z-index: 2;
 }
 #R4{
     position: absolute;
@@ -112,6 +116,7 @@
     width: 23vw;
     top: 58vh;
     right: 59vw;
+    z-index: 2;
 }
 #R5{
     position: absolute;
@@ -119,6 +124,7 @@
     width: 23vw;
     top: 60vh;
     right: 39vw;
+    z-index: 2;
 }
 #R6{
     position: absolute;
@@ -126,6 +132,7 @@
     width: 26vw;
     top: 58vh;
     right: 12vw;
+    z-index: 2;
 }
 #R7{
     position: absolute;
@@ -133,6 +140,7 @@
     width: 17vw;
     top: 51vh;
     right: 37vw;
+    z-index: 2;
 }
 #R8{
     position: absolute;
@@ -140,6 +148,7 @@
     width: 22vw;
     top: 50vh;
     right: 12vw;
+    z-index: 2;
 }
 #R9{
     position: absolute;
@@ -147,6 +156,7 @@
     width: 26vw;
     top: 42vh;
     right: 23vw;
+    z-index: 2;
 }
 #rov1{
     position: absolute;
