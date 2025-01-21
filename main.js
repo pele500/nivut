@@ -89,6 +89,7 @@ const rovaim = () =>{
     for(let i =1; i<=10; i++){
         document.getElementById(`R${i}`).style.display = 'none';
     }
+        alert('hi1');
 }
 
 const page4 = () =>{
